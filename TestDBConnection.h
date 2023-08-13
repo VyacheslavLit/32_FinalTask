@@ -60,7 +60,7 @@ protected:
 
 TEST_F(GTest, test2)
 {
-    bool b = dbconnect.insertTovar("Vodka", "0.5 kg", "450");
-    ASSERT_EQ(b, true);
+    bool a = dbconnect.insertTovar("Vodka", "0.5 kg", "450");
+    ASSERT_EQ(a, true);
 }
 
